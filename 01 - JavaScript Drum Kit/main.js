@@ -1,5 +1,6 @@
 // Play sound and add playing class when key is pressed
 window.addEventListener('keydown',function(e){
+    // Get the HTML element that matches the specified set of CSS selectors 
     const audio = document.querySelector(`audio[data-key="${e.code}"]`);
     const key = document.querySelector(`.key[data-key="${e.code}"]`);
 
